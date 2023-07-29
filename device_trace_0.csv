@@ -1,0 +1,108 @@
+HEADER
+VTF File Version,1.1
+VTF File Type,1
+PID,484119
+Generated on,2023-07-29 10:46:57
+Resolution,ms
+Min Resolution,ns
+Trace Version,1.1
+TraceID,484121
+XRT  Version,2.13.466
+Tool Version,2022.1
+Platform,xilinx_u55c_gen3x16_xdma_base_3
+Target,System Run
+
+STRUCTURE
+Group_Start,xilinx_u55c_gen3x16_xdma_base_3
+Group_Start,alveo_hls4ml.xclbin
+Group_Start,Compute Unit alveo_hls4ml_1 - No Trace,Activity in accelerator alveo_hls4ml:alveo_hls4ml_1
+Group_End,alveo_hls4ml_1
+Group_Start,Compute Unit alveo_hls4ml_2 - No Trace,Activity in accelerator alveo_hls4ml:alveo_hls4ml_2
+Group_End,alveo_hls4ml_2
+Group_Start,Compute Unit alveo_hls4ml_3 - No Trace,Activity in accelerator alveo_hls4ml:alveo_hls4ml_3
+Group_End,alveo_hls4ml_3
+Group_Start,Compute Unit alveo_hls4ml_4 - No Trace,Activity in accelerator alveo_hls4ml:alveo_hls4ml_4
+Group_End,alveo_hls4ml_4
+Group_End,alveo_hls4ml.xclbin
+Group_End,xilinx_u55c_gen3x16_xdma_base_3
+
+MAPPING
+48,0:0:0
+44,1:1:1
+36,HBM[0]
+40,HBM[10]
+49,HBM[11]
+61,HBM[12]
+62,HBM[13]
+52,HBM[14]
+57,HBM[15]
+47,HBM[1]
+53,HBM[2]
+56,HBM[3]
+50,HBM[4]
+54,HBM[5]
+58,HBM[6]
+60,HBM[7]
+55,HBM[8]
+59,HBM[9]
+51,READ
+64,Unknown
+38,WRITE
+43,alveo_hls4ml
+71,alveo_hls4ml_1
+72,alveo_hls4ml_2
+73,alveo_hls4ml_3
+74,alveo_hls4ml_4
+25,clCreateBuffer
+10,clCreateCommandQueue
+8,clCreateContext
+22,clCreateKernel
+12,clCreateProgramWithBinary
+31,clEnqueueMigrateMemObjects
+33,clEnqueueTask
+6,clGetDeviceIDs
+11,clGetDeviceInfo
+3,clGetExtensionFunctionAddress
+4,clGetExtensionFunctionAddressForPlatform
+5,clGetPlatformInfo
+66,clReleaseCommandQueue
+67,clReleaseContext
+21,clReleaseDevice
+41,clReleaseEvent
+68,clReleaseKernel
+29,clReleaseMemObject
+65,clReleaseProgram
+7,clRetainDevice
+32,clRetainEvent
+28,clRetainMemObject
+30,clSetKernelArg
+63,clWaitForEvents
+15,xclAllocBO
+27,xclAllocUserPtrBO
+70,xclClose
+19,xclCloseContext
+18,xclExecBuf
+46,xclExecWait
+20,xclFreeBO
+35,xclGetBOProperties
+14,xclLoadXclBin
+16,xclMapBO
+1,xclOpen
+17,xclOpenContext
+2,xclProbe
+39,xclSyncBO
+42,xilinx_u55c_gen3x16_xdma_base_3
+34,xrt::bo::address
+26,xrt::bo::bo
+37,xrt::bo::sync
+9,xrt::device::device
+13,xrt::device::load_xclbin
+69,xrt::device::reset
+23,xrt::kernel::kernel
+24,xrt::run::run
+45,xrt::run::start
+
+EVENTS
+
+DEPENDENCIES
+
