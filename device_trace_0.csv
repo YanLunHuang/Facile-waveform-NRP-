@@ -1,0 +1,97 @@
+HEADER
+VTF File Version,1.1
+VTF File Type,1
+PID,548054
+Generated on,2023-07-31 06:23:38
+Resolution,ms
+Min Resolution,ns
+Trace Version,1.1
+TraceID,548056
+XRT  Version,2.13.466
+Tool Version,2022.1
+Platform,xilinx_u55c_gen3x16_xdma_base_3
+Target,System Run
+
+STRUCTURE
+Group_Start,xilinx_u55c_gen3x16_xdma_base_3
+Group_Start,alveo_hls4ml.xclbin
+Group_Start,Compute Unit alveo_hls4ml_1 - No Trace,Activity in accelerator alveo_hls4ml:alveo_hls4ml_1
+Group_End,alveo_hls4ml_1
+Group_Start,Compute Unit alveo_hls4ml_2 - No Trace,Activity in accelerator alveo_hls4ml:alveo_hls4ml_2
+Group_End,alveo_hls4ml_2
+Group_Start,Compute Unit alveo_hls4ml_3 - No Trace,Activity in accelerator alveo_hls4ml:alveo_hls4ml_3
+Group_End,alveo_hls4ml_3
+Group_Start,Compute Unit alveo_hls4ml_4 - No Trace,Activity in accelerator alveo_hls4ml:alveo_hls4ml_4
+Group_End,alveo_hls4ml_4
+Group_End,alveo_hls4ml.xclbin
+Group_End,xilinx_u55c_gen3x16_xdma_base_3
+
+MAPPING
+47,0:0:0
+43,1:1:1
+35,HBM[0]
+50,HBM[12]
+45,HBM[16]
+51,HBM[20]
+48,HBM[4]
+39,HBM[8]
+49,READ
+53,Unknown
+37,WRITE
+42,alveo_hls4ml
+60,alveo_hls4ml_1
+61,alveo_hls4ml_2
+62,alveo_hls4ml_3
+63,alveo_hls4ml_4
+25,clCreateBuffer
+10,clCreateCommandQueue
+8,clCreateContext
+22,clCreateKernel
+12,clCreateProgramWithBinary
+30,clEnqueueMigrateMemObjects
+32,clEnqueueTask
+40,clFinish
+6,clGetDeviceIDs
+11,clGetDeviceInfo
+3,clGetExtensionFunctionAddress
+4,clGetExtensionFunctionAddressForPlatform
+5,clGetPlatformInfo
+55,clReleaseCommandQueue
+56,clReleaseContext
+21,clReleaseDevice
+52,clReleaseEvent
+57,clReleaseKernel
+31,clReleaseMemObject
+54,clReleaseProgram
+7,clRetainDevice
+29,clRetainMemObject
+26,clSetKernelArg
+15,xclAllocBO
+28,xclAllocUserPtrBO
+59,xclClose
+19,xclCloseContext
+18,xclExecBuf
+46,xclExecWait
+20,xclFreeBO
+33,xclGetBOProperties
+14,xclLoadXclBin
+16,xclMapBO
+1,xclOpen
+17,xclOpenContext
+2,xclProbe
+38,xclSyncBO
+41,xilinx_u55c_gen3x16_xdma_base_3
+34,xrt::bo::address
+27,xrt::bo::bo
+36,xrt::bo::sync
+9,xrt::device::device
+13,xrt::device::load_xclbin
+58,xrt::device::reset
+23,xrt::kernel::kernel
+24,xrt::run::run
+44,xrt::run::start
+
+EVENTS
+
+DEPENDENCIES
+
